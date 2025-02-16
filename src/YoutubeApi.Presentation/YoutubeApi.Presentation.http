@@ -1,0 +1,6 @@
+@YoutubeApi.Presentation_HostAddress = http://localhost:5032
+
+GET {{YoutubeApi.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
