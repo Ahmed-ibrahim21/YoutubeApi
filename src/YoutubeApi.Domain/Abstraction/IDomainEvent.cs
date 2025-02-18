@@ -1,4 +1,6 @@
-﻿namespace YoutubeApi.Domain.Abstraction
+﻿using MediatR;
+
+namespace YoutubeApi.Domain.Abstraction
 {
-    public interface IDomainEvent;
+    public interface IDomainEvent : INotification;
 }

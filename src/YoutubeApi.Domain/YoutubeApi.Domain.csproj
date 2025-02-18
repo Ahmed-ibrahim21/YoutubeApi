@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Invoices\" />
-    <Folder Include="Entities\InvoiceItems\" />
-    <Folder Include="Entities\Products\" />
+    <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
   </ItemGroup>
 
 </Project>
